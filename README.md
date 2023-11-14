@@ -1,4 +1,6 @@
 # TrabalhoEstatiscaGenetica
- Análise estatística de dados genéticos.
+ Análise estatística de dados genéticos em R e o relatório foi feito em formato de slide usando o latéx.
 
- No primeiro trabalho foi usada
+No primeiro estudo, inicialmente empregamos uma análise descritiva dos dados para obter insights sobre os testes realizados posteriormente. Além disso, calculamos o coeficiente de desequilíbrio de Weinberg e conduzimos um teste de hipóteses para avaliar se os genótipos estavam em equilíbrio de Weinberg, utilizando a estatística Qui-Quadrado. Para avaliar o desequilíbrio de ligação via gametas, realizamos outro teste de hipóteses. Adicionalmente, estabelecemos um intervalo de confiança para determinar as frequências dos alelos dominante e recessivo. Por fim, conduzimos um teste de hipóteses para identificar o marcador associado à variável resposta, densidade do fêmur.
+
+No segundo estudo, enfrentamos algumas complicações em comparação com o primeiro, devido à presença de vários marcadores. Calculamos a Frequência Alélica Menor (MAF) e complementamos a análise descritiva com box-plots. Para a seleção dos marcadores associados, não utilizamos a estatística Qui-Quadrado, devido ao tempo necessário; em vez disso, optamos pelos métodos forward, stepwise e lasso.
